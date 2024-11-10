@@ -2,20 +2,26 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>수수께끼</title>
+    <title>두번째 수수께끼</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
 </head>
 <body>
-    <p>Q1</p>
-    <img src="images/Q2_1.png" alt="문제 이미지">
-    <img src="images/Q2_2.png">
+    <p>Q2</p>
+    <p>안녕? 나는 귀엽고 깜찍한 여자아이야.</p>
+    <p>뭐라구? 내 나이를 알고 싶다구?</p>
+    <p>숙녀에게 그런 질문을 하다니...</p>
+    <p>아빠랑 엄마의 나이 차가 바로</p>
+    <p>내 나이야. 그리고 언니의 나이는</p>
+    <p>내 나이의 2배고, 엄마의 3분의 1이지.</p>
+    <p>앞으로 5년만 있으면 난 지금의</p>
+    <p>언니 나이와 같아져. 내가 몇 살인지 알겠어?</p>
     <p></p>
-    <input type="text" id="answer" placeholder="정답을 입력하세요">
+    <input type="text" id="answer" placeholder="꼬마숙녀의 나이를 입력해주세요.">
     <button onclick="checkAnswer()">제출</button>
     <script>
         function checkAnswer() {
             var answer = document.getElementById('answer').value.trim();
-            if (answer === '6') { // 정답을 '6'로 설정
+            if (answer === '5') { // 정답을 '5'로 설정
                 window.location.href = 'Q!A2tX.html';
             } else {
                 alert('틀렸습니다. 다시 시도해보세요.');
